@@ -1,0 +1,107 @@
+Get All
+-200 OK
+[
+    {
+        "contactId": 9,
+        "firstName": "Louise",
+        "lastName": "Banks",
+        "company": "Circle Of Life LLC",
+        "phone": "123-4567",
+        "email": "lbanks@itsfullofstars.com"
+    },
+    {
+        "contactId": 1339,
+        "firstName": "Steve",
+        "lastName": "Jobs",
+        "company": "Apple",
+        "phone": "123-456-7890",
+        "email": "steve@apple.com"
+    },
+    {
+        "contactId": 1340,
+        "firstName": "Jahn",
+        "lastName": "Joones",
+        "company": "Oracle",
+        "phone": "555-9876",
+        "email": "jj@oracle.com"
+    },
+    {
+        "contactId": 1342,
+        "firstName": "John",
+        "lastName": "Smith",
+        "company": "Software Guild",
+        "phone": "098-765-4321",
+        "email": "jsmith@software-guild.com"
+    },
+    {
+        "contactId": 1343,
+        "firstName": "Jeff",
+        "lastName": "Bozo",
+        "company": "Amazon",
+        "phone": "109-283-4756",
+        "email": "jeff@amazon.com"
+    },
+    {
+        "contactId": 1344,
+        "firstName": "Tim",
+        "lastName": "Apple",
+        "company": "Apple",
+        "phone": "573-892-4501",
+        "email": "timapple@apple.com"
+    },
+    {
+        "contactId": 1345,
+        "firstName": "Jahn",
+        "lastName": "Joones",
+        "company": "Oracle",
+        "phone": "555-9876",
+        "email": "jj@oracle.com"
+    }
+]
+
+Get One
+-200 OK
+{
+    "contactId": 1344,
+    "firstName": "Tim",
+    "lastName": "Apple",
+    "company": "Apple",
+    "phone": "573-892-4501",
+    "email": "timapple@apple.com"
+}
+
+Create One
+-200 OK
+{
+    "contactId": 1346,
+    "firstName": "Kevin",
+    "lastName": "Garvey",
+    "company": "Guilty Remenant",
+    "phone": "555-123-4567",
+    "email": "international.assassin@miracleTX.com"
+}
+
+Retrieve the New Contact
+-200 OK
+{
+    "contactId": 1346,
+    "firstName": "Kevin",
+    "lastName": "Garvey",
+    "company": "Guilty Remenant",
+    "phone": "555-123-4567",
+    "email": "international.assassin@miracleTX.com"
+}
+
+Update a Contact
+-200 OK
+{
+    "contactId": 1346,
+    "firstName": "Kevin",
+    "lastName": "Garvey",
+    "company": "Guilty Remenant",
+    "phone": "555-123-4567",
+    "email": "thapresident@miracleTX.com"
+}
+
+Delete a Contact
+-200 OK

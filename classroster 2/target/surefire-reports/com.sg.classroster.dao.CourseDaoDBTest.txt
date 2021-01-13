@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sg.classroster.dao.CourseDaoDBTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.498 s - in com.sg.classroster.dao.CourseDaoDBTest
